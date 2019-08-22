@@ -1,0 +1,42 @@
+
+/* Cabeçalho */
+
+.navbar-item img {
+    max-height: 100%;
+}
+
+a.navbar-item.ux-navbar-item:hover {
+    background: none !important;
+}
+
+.navbar.is-black .navbar-end > a.navbar-item:hover {
+    background: none;
+}
+
+@media(max-width: 767px){
+    .navbar-item img {
+        max-height: 36px;
+    }
+}
+
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #d18f50;
+}
+
+.navbar-item span:hover {
+    line-height: 20px;
+    border-bottom: 2px solid #d18f50;
+}
+
+
+/* Formulário */
+
+@media (min-width: 1281px){
+    .form-orcamento {
+        height: calc(120vh - 82px);
+        padding: 13rem 1.5rem;
+    }
+}
+

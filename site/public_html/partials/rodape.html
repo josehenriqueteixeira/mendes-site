@@ -1,0 +1,60 @@
+<footer class="section rodape">
+    <div class="container">
+        <div class="content info-company">
+            <div class="columns">
+                <div class="column">
+                    <a href="#" class="logo-rodape"><img alt="Logo tipo Mendes Cavalcante Soluções residenciais" src="img/logo/logo.png"></a>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Dr. Guilherme Dumont Vilares, 693 - Morumbi - São Paulo - SP</p>
+                    <p><i class="far fa-envelope-open"></i> mc.solucoesresidenciais@outlook.com</p> 
+                    <p><i class="fas fa-phone"></i> (11) 97766-4800</p>
+                </div>
+                <div class="column social-media">
+                    <div class="field is-grouped is-grouped-right medias">
+                        <div class="control">
+                            <a href="https://www.facebook.com/mc.solucoesresidenciais/" class="click-facebook" target="_blank" class="button"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="control">
+                            <a href="https://www.instagram.com/mc.solucoesresidenciais/" class="click-instagram" target="_blank" class="button"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content copyright">
+            <div class="columns">
+                <div class="column">
+                    <p class="has-text-grey">Copyright &copy; 2019 | <span class="has-text-grey">Mendes Cavalcante</span></p>
+                </div>
+                <div class="column">
+                    <p class="desenvolvido"><a class="has-text-grey dev" href="https://www.linkedin.com/in/jose-henrique-teixeira/" target="_blank">Desenvolvido por: José Henrique Teixeira</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Web -->
+    <div id="whatsapp-web">
+        <a class="whatsapp whatsapp-web" href="https://web.whatsapp.com/send?phone=5511977664800&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F"  target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <p>Envie uma mensagem!</p>
+        </a>
+        <i onclick="closeWhatsApp()" class="fas fa-times close-web"></i>
+    </div>
+
+    <!-- WhatsApp Mobile -->
+    <div id="whatsapp-mobile">
+        <a class="whatsapp whatsapp-mobile" href="https://api.whatsapp.com/send?phone=5511977664800&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F"  target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <p>Envie uma mensagem!</p>
+        </a>
+        <i onclick="closeWhatsApp()" class="fas fa-times close-mobile"></i>
+    </div>
+
+    <script>
+        function closeWhatsApp() {
+            document.getElementById('whatsapp-mobile').style.display = 'none' 
+            document.getElementById('whatsapp-web').style.display = 'none' 
+        }
+    </script>
+
+</footer>

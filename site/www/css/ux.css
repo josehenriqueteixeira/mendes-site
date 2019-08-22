@@ -1,0 +1,548 @@
+body {
+    #fff;
+}
+
+.ux-cover {
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-gradienta {
+    background: #304168;
+}
+
+.ux-navbar {
+    padding: 15px 0;
+}
+
+.ux-logo {
+    margin: 0 10px;
+}
+
+.ux-text-title {
+    margin: 20px 0 0 0;
+}
+
+.ux-text-subtitle {
+    padding: 0 0 40px 0;
+}
+
+.ux-left-text {
+    max-width: 363px;
+    word-wrap: break-word;
+    margin: 40px 0;
+}
+
+.ux-tel {
+    margin: 0 5px 0 0;
+}
+
+.ux-tipo {
+    margin: 0 0 0 5px;
+}
+
+.ux-hbox {
+    display: flex;
+    width: 100%;
+}
+
+.ux-card {
+    height: 200px;
+    min-width: 300px;
+    margin: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+.ux-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ux-scroll {
+    overflow-y: auto;
+}
+
+.ux-serifa {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background span {
+    font-size: 20px;
+    color: #333;
+    background: rgba(241, 196, 15,0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #333; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.ux-galeria {
+    padding: 0 0 30px 0;
+}
+
+.ux-title {
+    padding: 0 0 20px 0;
+}
+
+.ux-padding {
+    margin: 25px 0 0 0;
+}
+
+.ux-img1 {
+    background: url('../img/galeria/img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img2 {
+    background: url('../img/galeria/img2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img3 {
+    background: url('../img/galeria/img3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img4 {
+    background: url('../img/galeria/img4.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img5 {
+    background: url('../img/galeria/img5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img6 {
+    background: url('../img/galeria/img6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img7 {
+    background: url('../img/galeria/img7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img8 {
+    background: url('../img/galeria/img8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img9{
+    background: url('../img/galeria/img9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img10 {
+    background: url('../img/galeria/img10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img11 {
+    background: url('../img/galeria/img11.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img12 {
+    background: url('../img/galeria/img12.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img13 {
+    background: url('../img/galeria/img13.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img14 {
+    background: url('../img/galeria/img14.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img15 {
+    background: url('../img/galeria/img15.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img16 {
+    background: url('../img/galeria/img16.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img17 {
+    background: url('../img/galeria/img17.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img18 {
+    background: url('../img/galeria/img18.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img19 {
+    background: url('../img/galeria/img19.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img20 {
+    background: url('../img/galeria/img20.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img21 {
+    background: url('../img/galeria/img21.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img22 {
+    background: url('../img/galeria/img22.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img23 {
+    background: url('../img/galeria/img23.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img24 {
+    background: url('../img/galeria/img24.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img25 {
+    background: url('../img/galeria/img25.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img26 {
+    background: url('../img/galeria/img26.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img27 {
+    background: url('../img/galeria/img27.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img28 {
+    background: url('../img/galeria/img28.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img29 {
+    background: url('../img/galeria/img29.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img30 {
+    background: url('../img/galeria/img30.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img31 {
+    background: url('../img/galeria/img31.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img32 {
+    background: url('../img/galeria/img32.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img33 {
+    background: url('../img/galeria/img33.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img34 {
+    background: url('../img/galeria/img34.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img35 {
+    background: url('../img/galeria/img35.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img36 {
+    background: url('../img/galeria/img36.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img37 {
+    background: url('../img/galeria/img37.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img38 {
+    background: url('../img/galeria/img38.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img39 {
+    background: url('../img/galeria/img39.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img40 {
+    background: url('../img/galeria/img40.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img41 {
+    background: url('../img/galeria/img41.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img42 {
+    background: url('../img/galeria/img42.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img43 {
+    background: url('../img/galeria/img43.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img44 {
+    background: url('../img/galeria/img44.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img45 {
+    background: url('../img/galeria/img45.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img46 {
+    background: url('../img/galeria/img46.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img47 {
+    background: url('../img/galeria/img47.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img48 {
+    background: url('../img/galeria/img48.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img49 {
+    background: url('../img/galeria/img49.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img50 {
+    background: url('../img/galeria/img50.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img51 {
+    background: url('../img/galeria/img51.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img52 {
+    background: url('../img/galeria/img52.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img53 {
+    background: url('../img/galeria/img53.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img54 {
+    background: url('../img/galeria/img54.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img55 {
+    background: url('../img/galeria/img55.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img56 {
+    background: url('../img/galeria/img56.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img57 {
+    background: url('../img/galeria/img57.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img58 {
+    background: url('../img/galeria/img58.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img59 {
+    background: url('../img/galeria/img59.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img60 {
+    background: url('../img/galeria/img60.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img61 {
+    background: url('../img/galeria/img61.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img62 {
+    background: url('../img/galeria/img62.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img63 {
+    background: url('../img/galeria/img63.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img64 {
+    background: url('../img/galeria/img64.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img65 {
+    background: url('../img/galeria/img65.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img66 {
+    background: url('../img/galeria/img66.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img67 {
+    background: url('../img/galeria/img67.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img68 {
+    background: url('../img/galeria/img68.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img69 {
+    background: url('../img/galeria/img69.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ux-img70 {
+    background: url('../img/galeria/img70.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img71 {
+    background: url('../img/galeria/img71.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img72 {
+    background: url('../img/galeria/img72.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img73 {
+    background: url('../img/galeria/img73.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img74 {
+    background: url('../img/galeria/img74.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img75 {
+    background: url('../img/galeria/img75.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img76 {
+    background: url('../img/galeria/img76.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img77 {
+    background: url('../img/galeria/img77.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img78 {
+    background: url('../img/galeria/img78.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ux-img79 {
+    background: url('../img/galeria/img79.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media ( min-width : 1281px ) {
+    .ux-cover {
+        height: calc(100vh - 82px);
+    }
+    
+    .ux-gradienta {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e3566+0,593d22+100 */
+        background: #1e3566; /* Old browsers */
+        background: -moz-linear-gradient(45deg,  #1e3566 0%, #593d22 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg,  #1e3566 0%,#593d22 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg,  #1e3566 0%,#593d22 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e3566', endColorstr='#593d22',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+}

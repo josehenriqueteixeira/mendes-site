@@ -1,0 +1,83 @@
+--- 
+files: 
+  certificate: 
+    mendescavalcante_com_br_c66b2_89655_1566492009_9cab028e83df75386a7e52857b3df068: 
+      created: '1558719610'
+      domains: 
+        - autodiscover.mendescavalcante.com.br
+        - cpanel.mendescavalcante.com.br
+        - mail.mendescavalcante.com.br
+        - mendescavalcante.com.br
+        - webdisk.mendescavalcante.com.br
+        - webmail.mendescavalcante.com.br
+        - www.mendescavalcante.com.br
+      friendly_name: Cert for “mendescavalcante.com.br”
+      id: mendescavalcante_com_br_c66b2_89655_1566492009_9cab028e83df75386a7e52857b3df068
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: c66b230c03f7bc9267c341dccdad8705d45910b3a31b0fbc5e853b3bd65376c4c72d8bc4023e1e1849affade74c4dbc90576ada35cc3ba1139a7053b59a3109ef8056d4d023d3891d04d5b9d466c738980a00d4dff583b398c5d283ccdd10980d542b4bf6b197cf915ebe76bc873adbc8cec2cfb80d08c5f124c2510580aaa3eca14870eefb714b2c81074f5bd18c744868688bc30d0debcffd3af88831909d4b026094bc431c02dc96f447f0311a8c3f487145e192039f01830446ad5c923e694a701461146e9415fc8cdeb689d5c02af87cb5a6241afce8f2921689fc0975800beb6b58641806b6a6626f0a92a1cfa6e2760e50904e09710698e7b4a189655
+      modulus_length: 2048
+      not_after: '1566492009'
+      not_before: '1558716009'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: mendescavalcante.com.br
+      validation_type: dv
+    mendescavalcante_com_br_d9a44_d1aa7_1571761646_55f1e910e126a4bd2ea3d11c10717211: 
+      created: '1563989248'
+      domains: 
+        - autodiscover.mendescavalcante.com.br
+        - cpanel.mendescavalcante.com.br
+        - mail.mendescavalcante.com.br
+        - mendescavalcante.com.br
+        - webdisk.mendescavalcante.com.br
+        - webmail.mendescavalcante.com.br
+        - www.mendescavalcante.com.br
+      friendly_name: Cert for “mendescavalcante.com.br” 1563989248.0
+      id: mendescavalcante_com_br_d9a44_d1aa7_1571761646_55f1e910e126a4bd2ea3d11c10717211
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: d9a448cafa9feb8a2439eea6c86fe370c2f76aca7f86b44f2dc7790d345bcb94c7bf49fd54ee0c8e3d32f9a2d045706ee10604e1fb883a32d9d59cebdf4292b7704e2c11b3e49cc84c19a09ebee37e19412e7603302f5ba78f5a9ae44803764eb5399418e9f3837522f3f8f4baa66f08e1e433bcd8260fa02608b4b67671b3b87c999c7b6067be2afb41fbba89682ce38d71893d4b5af0aa6e78b950e0ec73bee3e33189cde32ccc1e100f6a218cf1c0e905076b53c29dd8433381802f177c8de462c29c72f41e9b253eefc2c391bf468fe71e92aec06efc59af3d4e9ba4ff3351209a96d01e8e19804e403a928137452b6ca2c2e4134c56501068a0633d1aa7
+      modulus_length: 2048
+      not_after: '1571761646'
+      not_before: '1563985646'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: mendescavalcante.com.br
+      validation_type: dv
+  key: 
+    c66b2_89655_025ba583bd9a17f0f122951410dd0422: 
+      created: '1558719610'
+      friendly_name: Key for “mendescavalcante.com.br”
+      id: c66b2_89655_025ba583bd9a17f0f122951410dd0422
+      modulus: c66b230c03f7bc9267c341dccdad8705d45910b3a31b0fbc5e853b3bd65376c4c72d8bc4023e1e1849affade74c4dbc90576ada35cc3ba1139a7053b59a3109ef8056d4d023d3891d04d5b9d466c738980a00d4dff583b398c5d283ccdd10980d542b4bf6b197cf915ebe76bc873adbc8cec2cfb80d08c5f124c2510580aaa3eca14870eefb714b2c81074f5bd18c744868688bc30d0debcffd3af88831909d4b026094bc431c02dc96f447f0311a8c3f487145e192039f01830446ad5c923e694a701461146e9415fc8cdeb689d5c02af87cb5a6241afce8f2921689fc0975800beb6b58641806b6a6626f0a92a1cfa6e2760e50904e09710698e7b4a189655
+      modulus_length: 2048
+    d9a44_d1aa7_bb8820003418d50ba7e67acaf35e8e1a: 
+      created: '1563989248'
+      friendly_name: Key for “mendescavalcante.com.br” 1563989248.0
+      id: d9a44_d1aa7_bb8820003418d50ba7e67acaf35e8e1a
+      modulus: d9a448cafa9feb8a2439eea6c86fe370c2f76aca7f86b44f2dc7790d345bcb94c7bf49fd54ee0c8e3d32f9a2d045706ee10604e1fb883a32d9d59cebdf4292b7704e2c11b3e49cc84c19a09ebee37e19412e7603302f5ba78f5a9ae44803764eb5399418e9f3837522f3f8f4baa66f08e1e433bcd8260fa02608b4b67671b3b87c999c7b6067be2afb41fbba89682ce38d71893d4b5af0aa6e78b950e0ec73bee3e33189cde32ccc1e100f6a218cf1c0e905076b53c29dd8433381802f177c8de462c29c72f41e9b253eefc2c391bf468fe71e92aec06efc59af3d4e9ba4ff3351209a96d01e8e19804e403a928137452b6ca2c2e4134c56501068a0633d1aa7
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      c66b230c03f7bc9267c341dccdad8705d45910b3a31b0fbc5e853b3bd65376c4c72d8bc4023e1e1849affade74c4dbc90576ada35cc3ba1139a7053b59a3109ef8056d4d023d3891d04d5b9d466c738980a00d4dff583b398c5d283ccdd10980d542b4bf6b197cf915ebe76bc873adbc8cec2cfb80d08c5f124c2510580aaa3eca14870eefb714b2c81074f5bd18c744868688bc30d0debcffd3af88831909d4b026094bc431c02dc96f447f0311a8c3f487145e192039f01830446ad5c923e694a701461146e9415fc8cdeb689d5c02af87cb5a6241afce8f2921689fc0975800beb6b58641806b6a6626f0a92a1cfa6e2760e50904e09710698e7b4a189655: 
+        mendescavalcante_com_br_c66b2_89655_1566492009_9cab028e83df75386a7e52857b3df068: ~
+      d9a448cafa9feb8a2439eea6c86fe370c2f76aca7f86b44f2dc7790d345bcb94c7bf49fd54ee0c8e3d32f9a2d045706ee10604e1fb883a32d9d59cebdf4292b7704e2c11b3e49cc84c19a09ebee37e19412e7603302f5ba78f5a9ae44803764eb5399418e9f3837522f3f8f4baa66f08e1e433bcd8260fa02608b4b67671b3b87c999c7b6067be2afb41fbba89682ce38d71893d4b5af0aa6e78b950e0ec73bee3e33189cde32ccc1e100f6a218cf1c0e905076b53c29dd8433381802f177c8de462c29c72f41e9b253eefc2c391bf468fe71e92aec06efc59af3d4e9ba4ff3351209a96d01e8e19804e403a928137452b6ca2c2e4134c56501068a0633d1aa7: 
+        mendescavalcante_com_br_d9a44_d1aa7_1571761646_55f1e910e126a4bd2ea3d11c10717211: ~
+    subject.commonName: 
+      mendescavalcante.com.br: 
+        mendescavalcante_com_br_c66b2_89655_1566492009_9cab028e83df75386a7e52857b3df068: ~
+        mendescavalcante_com_br_d9a44_d1aa7_1571761646_55f1e910e126a4bd2ea3d11c10717211: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “mendescavalcante.com.br”: mendescavalcante_com_br_c66b2_89655_1566492009_9cab028e83df75386a7e52857b3df068
+      Cert for “mendescavalcante.com.br” 1563989248.0: mendescavalcante_com_br_d9a44_d1aa7_1571761646_55f1e910e126a4bd2ea3d11c10717211
+  key: 
+    friendly_name: 
+      Key for “mendescavalcante.com.br”: c66b2_89655_025ba583bd9a17f0f122951410dd0422
+      Key for “mendescavalcante.com.br” 1563989248.0: d9a44_d1aa7_bb8820003418d50ba7e67acaf35e8e1a
+    modulus: 
+      c66b230c03f7bc9267c341dccdad8705d45910b3a31b0fbc5e853b3bd65376c4c72d8bc4023e1e1849affade74c4dbc90576ada35cc3ba1139a7053b59a3109ef8056d4d023d3891d04d5b9d466c738980a00d4dff583b398c5d283ccdd10980d542b4bf6b197cf915ebe76bc873adbc8cec2cfb80d08c5f124c2510580aaa3eca14870eefb714b2c81074f5bd18c744868688bc30d0debcffd3af88831909d4b026094bc431c02dc96f447f0311a8c3f487145e192039f01830446ad5c923e694a701461146e9415fc8cdeb689d5c02af87cb5a6241afce8f2921689fc0975800beb6b58641806b6a6626f0a92a1cfa6e2760e50904e09710698e7b4a189655: c66b2_89655_025ba583bd9a17f0f122951410dd0422
+      d9a448cafa9feb8a2439eea6c86fe370c2f76aca7f86b44f2dc7790d345bcb94c7bf49fd54ee0c8e3d32f9a2d045706ee10604e1fb883a32d9d59cebdf4292b7704e2c11b3e49cc84c19a09ebee37e19412e7603302f5ba78f5a9ae44803764eb5399418e9f3837522f3f8f4baa66f08e1e433bcd8260fa02608b4b67671b3b87c999c7b6067be2afb41fbba89682ce38d71893d4b5af0aa6e78b950e0ec73bee3e33189cde32ccc1e100f6a218cf1c0e905076b53c29dd8433381802f177c8de462c29c72f41e9b253eefc2c391bf468fe71e92aec06efc59af3d4e9ba4ff3351209a96d01e8e19804e403a928137452b6ca2c2e4134c56501068a0633d1aa7: d9a44_d1aa7_bb8820003418d50ba7e67acaf35e8e1a

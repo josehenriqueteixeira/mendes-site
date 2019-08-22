@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Mendes Cavalcante</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/ux.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/ux.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="ux-gradient">
+        <nav class="navbar ux-navbar is-black" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item ux-navbar-item" href="#">
+                        <img src="img/logo/logo.png" class="ux-logo">
+                        <img src="img/logo/logoC.png" class="ux-logo">
+                    </a>
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', () => {
+                            // Get all "navbar-burger" elements
+                            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                            // Check if there are any navbar burgers
+                            if ($navbarBurgers.length > 0) {
+                                // Add a click event on each of them
+                                $navbarBurgers.forEach( el => {
+                                    el.addEventListener('click', () => {
+                                        // Get the target from the "data-target" attribute
+                                        const target = el.dataset.target;
+                                        const $target = document.getElementById(target);
+                                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                                        el.classList.toggle('is-active');
+                                        $target.classList.toggle('is-active');
+                                    });
+                                });
+                            }
+                        });
+
+                        $(document).ready(function() {
+                            // Check for click events on the navbar burger icon
+                            $(".navbar-burger").click(function() {
+
+                                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                                $(".navbar-menu").toggleClass("is-active");
+
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item">Home</a>
+                        <a href="#sobre" class="navbar-item">Sobre</a>
+                        <a href="#galeria" class="navbar-item">Galeria</a>
+                        <a href="#contato" class="navbar-item">Contate-nos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="section ux-cover">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="subtitle is-2 has-text-white ux-text-title ux-serifa">Faça seu <br> orçamento aqui!</h2>
+                        <p class="has-text-white ux-left-text ux-text-left">Soluções em Arquitetura e Design de interiores</p>
+                        <p class="has-text-white ux-left-text ux-text-left">Tranquilidade e reforma podem estar juntos no mesmo lugar!</p>
+                    </div>
+                    <div class="column">
+                        <form class="ux-form" action="formulario.php" method="POST" action="envio_email.php">
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Nome</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="nome" name="nome" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Email</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="email" name="email" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Telefone</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="telefone" name="telefone" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-phone"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Celular</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="celular" name="celular" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-mobile-alt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="field">
+                                <label class="label has-text-white is-small">Endereço</label>
+                                <div class="control has-icons-left ux-fill">
+                                    <input class="ux-input input" id="endereco" name="endereco" required="required" type="text">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Cidade</label>
+                                        <div class="control has-icons-left ux-fill">
+                                            <input class="ux-input input" id="cidade" name="cidade" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-map"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Bairro</label>
+                                        <div class="control has-icons-left ux-fill">
+                                            <input class="ux-input input" id="bairro" name="bairro" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-map-marked"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label has-text-white is-small">Tipo</label>
+                                        <div class="control has-icons-left">
+                                            <div class="select" id="tipo" name="tipo" required="required">
+                                                <select>
+                                                    <option>Casa</option>
+                                                    <option>Apartamento</option>
+                                                </select>
+                                            </div>
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-home"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label has-text-white is-small">Observação</label>
+                                <div class="control has-icons-left">
+                                    <textarea class="textarea" rows="2" id="observacao" name="observacao" required="required" type="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="field is-grouped is-grouped-right">
+                                <div class="control">
+                                    <input class="button is-warning" type="submit" value="Enviar"/>
+                                </div>
+                            </div>
+                            <style>
+                                ::placeholder {
+                                    color: #000;
+                                    opacity: 1;
+                                }
+                            </style>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-white is-medium" id="sobre">
+            <div class="container">
+                <div class="content">
+                    <p class="title ux-serifa has-text-centered">Quem somos?</p>
+                    <p>Escritório criado pelo designer Gabriel Mendes e sócio Renato Cavalcante onde o foco é proporcionar a melhor experiência de obra ao cliente!</p>
+                    <p>Nossa equipe contém profissionais de arquitetura e engenharia com vasto conhecimento na área e prontos para gerir e dar todo suporte necessário para não haver problemas!</p>
+                    <p> A Mendes Cavalcante vai do macro ao micro, sendo uma empresa diferenciada por proporcionar tudo em um só lugar: móveis sob medida, obras e reformas com o máximo de excelência possível</p>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-white-ter" id="galeria">
+            <div class="container">
+                <h2 class="subtitle is-4 has-text-dark ux-serifa">Galeria</h2>
+                <div class="ux-grid ux-scroll">
+                    <a data-lightbox="mygallery" href="img/galeria/img1.jpg"><div class="ux-img1 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img2.jpg"><div class="ux-img2 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img3.jpg"><div class="ux-img3 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img4.jpg"><div class="ux-img4 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img5.jpg"><div class="ux-img5 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img6.jpg"><div class="ux-img6 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img7.jpg"><div class="ux-img7 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img8.jpg"><div class="ux-img8 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img9.jpg"><div class="ux-img9 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img10 ux-card"></div></a>
+                    <a data-lightbox="mygallery" href="img/galeria/img11.jpg"><div class="ux-img11 ux-card"></div></a>
+                    <a id="open"><div id="background" class="ux-img12 ux-card"><span>Ver +68</span></div></a>
+                </div>
+                
+                
+                <div class="modal" id="modal">
+                    <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <div class="ux-grid ux-scroll">
+                            <a data-lightbox="mygallery" href="img/galeria/img1.jpg"><div class="ux-img1 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img2.jpg"><div class="ux-img2 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img3.jpg"><div class="ux-img3 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img4.jpg"><div class="ux-img4 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img5.jpg"><div class="ux-img5 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img6.jpg"><div class="ux-img6 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img7.jpg"><div class="ux-img7 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img8.jpg"><div class="ux-img8 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img9.jpg"><div class="ux-img9 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img10 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img11.jpg"><div class="ux-img11 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img12.jpg"><div class="ux-img12 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img13.jpg"><div class="ux-img13 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img14.jpg"><div class="ux-img14 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img15.jpg"><div class="ux-img15 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img16.jpg"><div class="ux-img16 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img17.jpg"><div class="ux-img17 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img18.jpg"><div class="ux-img18 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img19.JPG"><div class="ux-img19 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img20.jpg"><div class="ux-img20 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img1.jpg"><div class="ux-img21 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img2.jpg"><div class="ux-img22 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img3.jpg"><div class="ux-img23 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img4.jpg"><div class="ux-img24 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img5.jpg"><div class="ux-img25 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img6.jpg"><div class="ux-img26 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img7.jpg"><div class="ux-img27 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img8.jpg"><div class="ux-img28 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img9.jpg"><div class="ux-img29 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img30 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img11.jpg"><div class="ux-img31 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img12.jpg"><div class="ux-img32 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img13.jpg"><div class="ux-img33 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img14.jpg"><div class="ux-img34 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img15.jpg"><div class="ux-img35 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img16.jpg"><div class="ux-img36 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img17.jpg"><div class="ux-img37 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img18.jpg"><div class="ux-img38 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img19.JPG"><div class="ux-img39 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img20.jpg"><div class="ux-img40 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img1.jpg"><div class="ux-img41 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img2.jpg"><div class="ux-img42 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img3.jpg"><div class="ux-img43 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img4.jpg"><div class="ux-img44 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img5.jpg"><div class="ux-img45 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img6.jpg"><div class="ux-img46 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img7.jpg"><div class="ux-img47 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img8.jpg"><div class="ux-img48 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img9.jpg"><div class="ux-img49 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img50 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img11.jpg"><div class="ux-img51 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img12.jpg"><div class="ux-img52 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img13.jpg"><div class="ux-img53 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img14.jpg"><div class="ux-img54 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img15.jpg"><div class="ux-img55 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img16.jpg"><div class="ux-img56 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img17.jpg"><div class="ux-img57 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img18.jpg"><div class="ux-img58 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img19.JPG"><div class="ux-img59 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img20.jpg"><div class="ux-img60 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img1.jpg"><div class="ux-img61 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img2.jpg"><div class="ux-img62 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img3.jpg"><div class="ux-img63 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img4.jpg"><div class="ux-img64 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img5.jpg"><div class="ux-img65 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img6.jpg"><div class="ux-img66 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img7.jpg"><div class="ux-img67 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img8.jpg"><div class="ux-img68 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img9.jpg"><div class="ux-img69 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img70 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img71 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img72 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img73 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img74 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img75 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img76 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img77 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img78 ux-card"></div></a>
+                            <a data-lightbox="mygallery" href="img/galeria/img10.jpg"><div class="ux-img79 ux-card"></div></a>
+                        </div>
+                    </div>
+                    <button class="modal-close is-large" aria-label="close" id="close"></button>
+                </div>
+                <script>
+                    var modal = document.getElementById('modal');
+                    var close = document.getElementById('close');
+                    var open = document.getElementById('open');
+
+                    close.addEventListener('click', closeModal);
+                    open.addEventListener('click', openModal);
+
+                    function closeModal() {
+                        modal.classList.remove('is-active');
+                    }
+
+                    function openModal() {
+                        modal.classList.add('is-active');
+                        console.log('alo');
+                    }
+                </script>
+            </div>
+        </section>
+        <section class="section has-background-white" id="contato">
+            <div class="container">
+                <h2 class="subtitle is-4 has-text-dark has-text-centered ux-title ux-serifa">Contato</h2>
+                <div class="columns">
+                    <div class="column has-text-left ux-padding">
+                        <h3 class="subtitle is-5">Endereço</h3>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp; Av. Dr. Guilherme Dumont Vilares, 693 - Morumbi, São Paulo</p>
+                        <p><i class="far fa-envelope-open"></i>&nbsp; mc.solucoesresidenciais@outlook.com</p> 
+                        <p><i class="fas fa-phone"></i>&nbsp; (11) 97766-4800</p>
+                    </div>
+                    <div class="column">
+                        <form class="ux-form">
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <label class="label is-small">Nome</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="nome" name="nome" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label is-small">Email</label>
+                                        <div class="control has-icons-left">
+                                            <input class="ux-input input" id="email" name="email" required="required" type="text">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label is-small">Mensagem</label>
+                                <div class="control">
+                                    <textarea class="textarea" rows="2" id="observacao" name="observacao" required="required" type="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="field is-grouped is-grouped-right">
+                                <div class="control">
+                                    <input class="button" type="submit" value="Cadastrar"/>
+                                </div>
+                            </div>
+                            <style>
+                                ::placeholder {
+                                    color: #000;
+                                    opacity: 1;
+                                }
+                            </style>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section has-background-black">
+            <div class="container">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="has-text-grey">&copy;2019<span class="has-text-white">&nbsp; Mendes Cavalcante</span></p>
+                        </div>
+                        <div class="column has-text-centered">
+                            <a href="#"><img src="img/logo/logo.png" width="120px"></a>
+                        </div>
+                        <div class="column">
+                            <div class="field is-grouped is-grouped-right">
+                                <div class="control">
+                                    <a href="https://www.facebook.com/pg/mc.solucoesresidenciais/posts/" class="button"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="control">
+                                    <a href="https://www.instagram.com/mc.solucoesresidenciais/?igshid=1luva0ymsp7wd" class="button"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="control">
+                                    <img src="img/parceiros/dhm.jpg" width="50px">
+                                </div>
+                                <div class="control">
+                                    <img src="img/parceiros/PEC.jpg" width="50px">
+                                </div>
+                                <div class="control">
+                                    <img src="img/parceiros/potobello.png" width="50px">
+                                </div>
+                                <div class="control">
+                                    <img src="img/parceiros/engecubo.png" width="50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

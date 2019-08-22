@@ -1,0 +1,38 @@
+[30-May-2019 17:00:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[30-May-2019 17:00:36 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[30-May-2019 17:00:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[30-May-2019 17:00:55 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[30-May-2019 17:06:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[30-May-2019 17:06:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[30-May-2019 17:18:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[30-May-2019 17:18:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[05-Jun-2019 04:12:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[05-Jun-2019 04:12:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[05-Jun-2019 04:12:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[05-Jun-2019 04:12:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[05-Jun-2019 04:12:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[05-Jun-2019 04:12:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[10-Jun-2019 19:01:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[10-Jun-2019 19:01:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[08-Jul-2019 19:24:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[08-Jul-2019 19:24:26 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[08-Jul-2019 19:53:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[08-Jul-2019 19:53:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[10-Jul-2019 14:47:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[10-Jul-2019 14:47:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[11-Jul-2019 05:56:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[11-Jul-2019 05:56:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[11-Jul-2019 17:46:38 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/mendes92/public_html/envio_email.php on line 25
+[11-Jul-2019 17:47:18 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/mendes92/public_html/envio_email.php on line 25
+[11-Jul-2019 17:57:28 UTC] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 6
+[11-Jul-2019 17:58:03 UTC] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 6
+[11-Jul-2019 18:00:53 UTC] PHP Parse error:  syntax error, unexpected '$mensagem' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 8
+[11-Jul-2019 18:03:02 UTC] PHP Parse error:  syntax error, unexpected '$mensagem' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 8
+[11-Jul-2019 18:04:40 UTC] PHP Parse error:  syntax error, unexpected '$mensagem' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 8
+[11-Jul-2019 18:06:59 UTC] PHP Parse error:  syntax error, unexpected '$mensagem' (T_VARIABLE) in /home3/mendes92/public_html/envio_email.php on line 8
+[11-Jul-2019 19:05:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[11-Jul-2019 19:05:49 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[11-Jul-2019 19:07:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[11-Jul-2019 19:07:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24
+[11-Jul-2019 19:09:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 19
+[11-Jul-2019 19:09:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/mendes92/public_html/formulario.php on line 24

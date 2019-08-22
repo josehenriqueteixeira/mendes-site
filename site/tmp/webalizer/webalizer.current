@@ -1,0 +1,967 @@
+# Webalizer V2.23-08 Incremental Data - 07/28/2019 20:03:21
+2019 7 28 20 3 21
+3170 1912 170 81 16 52 354171368 178 108 0
+15 4 378 1 28
+11 5 96977 3 2 2
+45 22 5170270 6 2 2
+43 25 5220628 6 4 4
+66 48 10626044 6 4 4
+95 68 15517516 7 4 4
+33 23 5207573 5 2 2
+22 14 234381 4 5 4
+49 27 5182037 6 4 4
+65 42 10352214 7 3 3
+99 68 15526054 13 5 5
+1156 663 130757357 18 78 14
+18 0 11951 2 1 1
+68 46 10373184 11 3 3
+36 24 5169538 6 3 3
+35 25 9014716 4 1 1
+33 24 5212823 6 2 2
+101 64 8450139 3 2 2
+9 2 14846 5 2 2
+8 5 80480 6 5 5
+6 2 58618 4 1 1
+9 4 64184 7 4 4
+133 88 13735409 8 5 5
+137 85 16622045 8 4 3
+124 80 8463429 13 5 5
+95 53 10762479 17 8 8
+346 216 30555086 9 9 7
+277 151 22140101 9 6 5
+51 38 9551289 15 4 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+154 69 8605380 5
+1 1 4940 1
+34 23 5159269 1
+7 2 14060 2
+0 0 0 0
+11 1 12622 3
+45 31 5305669 6
+39 28 5544561 3
+93 67 15526338 4
+70 37 9515006 5
+162 110 18822397 6
+345 226 44715666 16
+123 65 11512752 5
+29 22 8433399 4
+303 175 31403426 23
+481 277 41280929 39
+340 189 41602310 15
+151 94 13830137 6
+107 69 15521770 7
+73 52 10507842 5
+110 67 15532731 7
+50 23 5209995 2
+125 90 20667162 6
+317 194 25443007 7
+0
+0
+0
+1912
+0
+0
+0
+0
+0
+13
+0
+0
+0
+0
+17
+0
+0
+0
+0
+0
+7
+1171
+0
+3
+0
+0
+39
+0
+0
+0
+0
+0
+0
+0
+0
+8
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/acme-challenge/9T8V878PVV8ILYT52WAYYCWJ0QOMALXM
+0 1 0 64 0 0
+/img/galeria/img2.jpg
+0 60 3257005423767661874 3880680 0 0
+/envio_email.php
+0 19 3761685663258521902 1805 0 0
+/img/galeria/img12.jpg
+0 58 16856736 7113120 0 0
+/img/galeria/img77.jpg
+0 9 0 560736 0 0
+/img/galeria/img42.jpg
+0 10 0 685560 0 0
+/img/logo/logo.png
+0 75 0 3775050 0 0
+/img/galeria/img50.jpg
+0 10 0 578150 0 0
+/img/galeria/img40.jpg
+0 10 0 679440 0 0
+/img/galeria/img53.jpg
+0 10 0 532440 0 0
+/img/galeria/img13.jpg
+0 10 0 916820 0 0
+/cgi-sys/images/bg_404.jpg
+0 1 0 733 0 0
+/.well-known/acme-challenge/FVvxGyoji9Aq_ibDSqvIxzpWRBaHwL2wg_7DT58VfMM
+0 1 0 87 0 0
+/img/galeria/img1.jpg
+0 60 0 4798680 0 0
+/img/galeria/img29.jpg
+0 10 0 1195420 0 0
+/img/galeria/img15.jpg
+0 10 0 1059230 0 0
+/img/background.jpg
+0 62 0 62819454 0 0
+/img/galeria/img79.jpg
+0 9 0 835803 0 0
+/img/galeria/img65.jpg
+0 9 0 551925 0 0
+/.well-known/acme-challenge/VAP2-1A1KDPOQ1XYMFRT6Z7P4JLF5-Y3
+0 1 48 64 0 0
+/.well-known/acme-challenge/I2M3ME1TK6RQWRCI5Y14TLKCIXP7JAVF
+0 1 0 64 0 0
+/img/galeria/img54.jpg
+0 10 0 598080 0 0
+/.well-known/acme-challenge/34FDQ6E2P9RTATG_V6IFGRP7HY_UFT3F
+0 1 0 64 0 0
+/img/galeria/img35.jpg
+0 10 0 889250 0 0
+/.well-known/acme-challenge/W5PI9IFDPNICNVZWHCK-425O5MWEF-36
+0 1 0 64 0 0
+/img/galeria/img27.jpg
+0 10 0 941500 0 0
+/.well-known/acme-challenge/OoeSR7_ZT7OEruZW5a7T7hggZp5K53zA1gVEMCZqzl0
+0 1 0 87 0 0
+/img/galeria/img72.jpg
+0 9 0 687465 0 0
+/img/galeria/img3.jpg
+0 60 0 5664540 0 0
+/img/galeria/img58.jpg
+0 9 0 582030 0 0
+/cgi-sys/images/404.jpg
+0 1 0 66176 0 0
+/img/galeria/img26.jpg
+0 10 0 829820 0 0
+/img/galeria/img41.jpg
+0 10 0 490900 0 0
+/.well-known/acme-challenge/P3IGMV5CCXXUQOT6_QSQJR4A8HD7SPQC
+0 1 0 64 0 0
+/img/galeria/img68.jpg
+0 9 0 812160 0 0
+/img/galeria/img64.jpg
+0 9 0 518067 0 0
+/img/parceiros/PEC.jpg
+0 63 0 86922234 0 0
+/img/galeria/img30.jpg
+0 10 0 1732370 0 0
+/img/galeria/img28.jpg
+0 10 0 528700 0 0
+/.well-known/acme-challenge/DXJ3G1OoknMDRuOs19Bf9KsHJ95op9Dw-zbpRHWvyjs
+0 1 0 87 0 0
+/img/galeria/img19.jpg
+0 10 0 777120 0 0
+/img/galeria/img9.jpg
+0 58 0 7446968 0 0
+/img/galeria/img24.jpg
+0 10 0 928840 0 0
+/img/galeria/img73.jpg
+0 9 0 742842 0 0
+/img/galeria/img78.jpg
+0 9 0 1241253 0 0
+/img/galeria/img74.jpg
+0 9 0 1232631 0 0
+/.well-known/acme-challenge/QRreNr8QzIcX0S33r8lzPqxoUUQpUEaKp9DZ9LnZVuY
+0 1 0 87 0 0
+/img/galeria/img4.JPG
+0 60 0 10905240 0 0
+/img/galeria/img33.jpg
+0 10 0 666350 0 0
+/img/galeria/img11.jpg
+0 58 0 8555406 0 0
+/img/galeria/img5.jpg
+0 59 0 6086853 0 0
+/img/galeria/img38.jpg
+0 10 0 716020 0 0
+/.well-known/acme-challenge/ITkIXJWogYfjV0EpbT86ar4p2YF-bDt0lv7tIxMYNTQ
+0 1 0 87 0 0
+/img/logo/logoC.png
+0 67 0 2860364 0 0
+/img/galeria/img6.jpg
+0 58 0 4612914 0 0
+/img/galeria/img14.jpg
+0 10 0 750200 0 0
+/css/lightbox.min.css
+0 71 0 71499 0 0
+/img/galeria/img16.jpg
+0 10 0 897700 0 0
+/img/galeria/img75.jpg
+0 9 0 682713 0 0
+/js/lightbox-plus-jquery.min.js
+0 79 0 3359679 0 0
+/.well-known/acme-challenge/NR94EN4S6PY6YBDH5TTQ8_NMC2X6OC7H
+0 1 0 64 0 0
+/
+0 172 0 986058 107 18
+/img/galeria/img69.jpg
+0 9 0 623844 0 0
+/css/ux.css
+0 73 0 128668 0 0
+/img/parceiros/dhm.jpg
+0 63 0 92280447 0 0
+/img/galeria/img71.jpg
+0 9 0 805203 0 0
+/img/galeria/img70.jpg
+0 9 0 676449 0 0
+/img/galeria/img32.jpg
+0 10 0 527380 0 0
+/img/galeria/img10.jpg
+0 58 0 3216390 0 0
+/.well-known/acme-challenge/dFSZWkTEsbc4JjRnRdDGSnkEmPGS1llr_ft5h5VOOMY
+0 1 0 87 0 0
+/img/galeria/img7.jpg
+0 58 0 2704482 0 0
+/css/bulma.css
+0 73 0 3238782 0 0
+/img/galeria/img60.jpg
+0 9 0 733500 0 0
+/img/galeria/img23.jpg
+0 10 0 333620 0 0
+/img/galeria/img43.jpg
+0 10 0 761940 0 0
+/formulario.php
+0 7 0 3286 0 0
+/img/galeria/img21.jpg
+0 10 0 492150 0 0
+/img/galeria/img76.jpg
+0 9 0 569205 0 0
+/img/galeria/img37.jpg
+0 10 0 951800 0 0
+/img/parceiros/potobello.png
+0 61 0 462360 0 0
+/.well-known/acme-challenge/koUTzg4yYaBgy4USWgr6mNkg0yNB-1Tytn0Y6S8-Bkg
+0 1 0 87 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.220.149.20
+0 12 11 1584041 1 1562755655
+/
+173.252.95.9
+0 1 1 41833 0 0
+-
+187-26-223-221.3g.claro.net.br
+0 31 22 5158746 1 1564092560
+/
+66.220.149.25
+0 1 1 50334 0 0
+-
+179.142.248.181
+0 1 1 4940 1 1562863166
+/
+crawl-66-249-65-157.googlebot.com
+0 4 2 48120 1 1562491825
+/
+66.220.149.33
+0 3 2 84502 0 0
+-
+b3d53279.virtua.com.br
+0 779 415 77795136 5 1562864003
+/
+google-proxy-64-233-172-156.google.com
+0 32 19 3592112 0 0
+-
+31.13.127.33
+0 6 5 418956 0 0
+-
+177.67.97.175.niqturbo.net.br
+0 102 62 11417113 1 1563885769
+/
+69.171.251.14
+0 1 1 50334 0 0
+-
+google-proxy-64-233-172-152.google.com
+0 41 27 3338641 1 1564187777
+/
+171.13.14.24
+0 3 3 1423888 0 0
+-
+customer-138-94-192-103.agtnet.com.br
+0 29 22 5157074 1 1563912504
+/
+62-210-116-52.rev.poneytelecom.eu
+0 1 0 83 0 0
+-
+177-198-75-216.user.vivozap.com.br
+0 154 73 15521629 2 1562923043
+/
+66.220.149.23
+0 1 1 41833 0 0
+-
+crawl-66-249-65-95.googlebot.com
+0 1 0 703 0 0
+-
+177-128-125-67.redenilf.com.br
+0 97 63 8443040 1 1563982862
+/
+173.252.95.22
+0 1 1 4940 1 1563912536
+/
+hurley.onyphe.io
+0 1 1 31576 1 1564076623
+/
+173.252.95.18
+0 1 1 41833 0 0
+-
+173.252.95.42
+0 1 1 4881 1 1562672592
+/
+66.220.149.38
+0 2 0 1406 0 0
+-
+173.252.127.53
+0 14 10 449688 1 1562316239
+/
+crawl-66-249-73-24.googlebot.com
+0 17 5 26472 3 1563472800
+/
+google-proxy-66-102-8-249.google.com
+0 61 41 4573279 1 1564184107
+/
+138-117-61-19.rev.multiplicnet.com.br
+0 31 22 5157490 1 1562672546
+/
+209.17.97.18.rdns.cloudsystemnetworks.com
+0 1 1 31576 1 1564181141
+/
+crawl-66-249-73-25.googlebot.com
+0 4 1 7315 1 1563593627
+/
+191.39.21.249
+0 59 44 10312871 1 1562845014
+/
+180.163.220.66
+0 5 5 339391 0 0
+-
+179-151-253-199.user.vivozap.com.br
+0 31 22 5158746 1 1563821405
+/
+173.252.127.35
+0 1 1 4881 1 1562759332
+/
+69.171.251.9
+0 11 8 1465268 1 1563791284
+/
+ip110.ip-188-165-29.eu
+0 1 0 83 0 0
+-
+intecinfosys.com
+0 1 0 83 0 0
+-
+171.13.14.21
+0 8 7 1742619 1 1564307943
+/
+google-proxy-66-102-8-251.google.com
+0 69 40 7049682 1 1564184107
+/
+google-proxy-66-249-85-29.google.com
+0 14 10 3063864 1 1562704586
+/
+209.17.97.50.rdns.cloudsystemnetworks.com
+0 1 1 31576 1 1563544787
+/
+msnbot-40-77-188-158.search.msn.com
+0 1 0 2361 0 0
+-
+msnbot-157-55-39-219.search.msn.com
+0 1 0 836 0 0
+-
+31.13.115.14
+0 19 13 974920 0 0
+-
+171.13.14.26
+0 2 2 232088 0 0
+-
+180.163.220.5
+0 14 12 2096452 1 1564307716
+/
+173.252.79.7
+0 1 1 4881 1 1562315874
+/
+crawl-66-249-73-23.googlebot.com
+0 22 6 113561 4 1564080906
+/
+173.252.127.20
+0 2 1 42669 0 0
+-
+66.220.149.7
+0 1 1 50334 0 0
+-
+173.252.95.33
+0 1 1 4881 1 1561961511
+/
+web144.vdc2.com
+0 1 0 83 0 0
+-
+173.252.127.49
+0 1 1 41833 0 0
+-
+ec2-52-34-200-147.us-west-2.compute.amazonaws.com
+0 4 2 11552 1 1564344201
+/
+crawl-66-249-65-156.googlebot.com
+0 13 5 61135 3 1562606119
+/
+168.227.33.220
+0 29 22 5156143 1 1562875431
+/
+173.252.87.37
+0 7 4 311702 0 0
+-
+66.220.149.30
+0 1 1 4881 1 1562759333
+/
+66.220.149.47
+0 15 11 3091751 1 1562855619
+/
+142.93.210.94
+0 1 0 83 0 0
+-
+69.171.251.43
+0 16 12 795873 1 1563130962
+/
+66.220.149.1
+0 1 0 836 0 0
+-
+jp16a.mixhost.jp
+0 1 1 4940 1 1563692162
+/
+66.220.149.22
+0 1 1 4940 1 1563799276
+/
+monika.onyphe.io
+0 1 1 31576 1 1564069528
+/
+173.252.127.33
+0 7 5 1881876 0 0
+-
+139.59.5.222
+0 1 0 83 0 0
+-
+crawl-66-249-65-154.googlebot.com
+0 9 4 19157 3 1562624665
+/
+ip127.ip-178-32-136.eu
+0 1 0 83 0 0
+-
+ip64.ip-37-187-196.eu
+0 1 0 83 0 0
+-
+173.252.87.6
+0 1 1 50334 0 0
+-
+tor13.quintex.com
+0 1 0 0 1 1563978494
+/
+200-158-204-16.dsl.telesp.net.br
+0 99 63 8444496 1 1563383729
+/
+31.13.127.10
+0 1 1 4881 1 1562043650
+/
+msnbot-40-77-188-56.search.msn.com
+0 1 1 96705 0 0
+-
+ec2-18-139-69-247.ap-southeast-1.compute.amazonaws.com
+0 1 1 4940 1 1563691309
+/
+66.220.149.28
+0 13 9 1938733 0 0
+-
+google-proxy-66-249-83-212.google.com
+0 6 1 8721 1 1564006129
+/
+66.220.149.6
+0 13 11 1605229 1 1564072833
+/
+mehmet.onyphe.io
+0 1 1 31576 1 1564056201
+/
+173.252.95.21
+0 1 0 836 0 0
+-
+69.171.251.29
+0 7 5 1279957 0 0
+-
+ec2-18-231-139-61.sa-east-1.compute.amazonaws.com
+0 10 7 132523 1 1562479972
+/
+171.13.14.23
+0 2 2 1014216 0 0
+-
+ip137.ip-217-182-7.eu
+0 1 0 83 0 0
+-
+static.vnpt.vn
+0 1 0 83 0 0
+-
+ec2-52-13-37-40.us-west-2.compute.amazonaws.com
+0 3 1 6612 1 1563549811
+/
+ns3029315.ip-91-121-82.eu
+0 2 0 166 0 0
+-
+173.252.127.29
+0 1 0 703 0 0
+-
+31.13.115.12
+0 7 6 3031747 1 1563007705
+/
+189.33.66.202
+0 96 63 8442204 1 1564226842
+/
+ec2-3-82-146-14.compute-1.amazonaws.com
+0 1 1 4940 1 1563932379
+/
+173.252.87.25
+0 6 3 1650729 0 0
+-
+173.252.87.27
+0 10 7 1810891 0 0
+-
+191.39.22.122
+0 32 23 5163686 1 1564256136
+/
+ip176.ip-51-77-242.eu
+0 1 0 83 0 0
+-
+66.220.149.29
+0 11 9 628501 0 0
+-
+crawl-66-249-65-94.googlebot.com
+0 2 0 1406 0 0
+-
+162-241-203-135.unifiedlayer.com
+0 11 11 796 0 0
+-
+msnbot-40-77-188-176.search.msn.com
+0 1 1 2568 0 0
+-
+179-174-14-9.user.vivozap.com.br
+0 32 23 5157863 1 1562813264
+/
+173.252.127.61
+0 1 1 4940 1 1564256132
+/
+ipv4-64-246-165-50.greenhousedata.net
+0 2 1 6022 1 1562564257
+/
+69.171.251.33
+0 1 1 1464769 0 0
+-
+179-98-33-112.dsl.telesp.net.br
+0 40 24 5163358 1 1562603047
+/
+b1514fa9.virtua.com.br
+0 3 3 45749 1 1562326742
+/
+31.13.115.4
+0 9 6 1352365 0 0
+-
+mx390.mail.hostserv.eu
+0 1 0 83 0 0
+-
+159.203.64.129
+0 1 0 83 0 0
+-
+66.220.149.10
+0 1 1 4940 1 1563729814
+/
+40.159.68.34.bc.googleusercontent.com
+0 2 0 452 1 1562436899
+/
+173.252.127.45
+0 10 8 2875557 0 0
+-
+31.13.127.34
+0 15 10 1913300 1 1562998307
+/
+187-26-179-30.3g.claro.net.br
+0 31 22 5157490 1 1562089361
+/
+31.13.127.31
+0 1 1 50334 0 0
+-
+219.145.144.65
+0 19 0 1751 1 1564089752
+/
+173.252.87.4
+0 8 5 1646983 0 0
+-
+crawl-66-249-73-1.googlebot.com
+0 2 0 1406 0 0
+-
+msnbot-40-77-188-30.search.msn.com
+0 1 1 221046 0 0
+-
+b3d55c09.virtua.com.br
+0 29 22 5156143 1 1563216217
+/
+209.17.97.10.rdns.cloudsystemnetworks.com
+0 1 1 31576 1 1563562516
+/
+66.220.149.34
+0 15 10 3468439 0 0
+-
+68.183.37.54
+0 1 0 83 0 0
+-
+173.252.87.20
+0 14 12 1695167 1 1562412540
+/
+173.252.87.8
+0 16 13 3198864 1 1562869716
+/
+180.163.220.67
+0 2 1 1465605 0 0
+-
+191.39.37.186
+0 96 63 8442204 1 1563791244
+/
+bb252c4e.virtua.com.br
+0 30 23 5156667 1 1562758986
+/
+171.13.14.22
+0 4 2 160759 0 0
+-
+google-proxy-64-233-172-154.google.com
+0 29 18 1520571 1 1564187779
+/
+outbound1.letsencrypt.org
+0 3 3 261 0 0
+-
+ec2-54-67-59-59.us-west-1.compute.amazonaws.com
+0 1 1 4940 1 1563114462
+/
+ec2-18-228-245-87.sa-east-1.compute.amazonaws.com
+0 1 1 4940 1 1563495262
+/
+google-proxy-66-249-83-214.google.com
+0 7 5 26372 5 1564183953
+/
+187-26-223-230.3g.claro.net.br
+0 30 21 5152609 0 0
+-
+google-proxy-66-249-83-210.google.com
+0 3 1 6612 1 1563542604
+/
+177-58-230-29.3g.claro.net.br
+0 30 22 5156846 1 1562863211
+/
+ip-177-79-13-152.user.vivozap.com.br
+0 29 22 5156084 1 1562796158
+/
+google-proxy-66-249-85-28.google.com
+0 8 5 1722646 0 0
+-
+google-proxy-66-249-85-30.google.com
+0 10 4 361500 0 0
+-
+ip89.ip-164-132-88.eu
+0 1 0 83 0 0
+-
+187-26-219-148.3g.claro.net.br
+0 29 22 5156084 1 1562225427
+/
+msnbot-40-77-190-255.search.msn.com
+0 1 1 12604 0 0
+-
+66.220.149.48
+0 7 3 1718255 0 0
+-
+ip233.ip-213-32-83.eu
+0 2 0 166 0 0
+-
+177-58-244-104.3g.claro.net.br
+0 31 22 5157490 1 1562315856
+/
+209.17.97.74.rdns.cloudsystemnetworks.com
+0 1 1 31576 1 1563837779
+/
+187-26-175-19.3g.claro.net.br
+0 30 22 5157910 1 1564174882
+/
+173.252.95.32
+0 1 1 50334 0 0
+-
+189-92-117-79.3g.claro.net.br
+0 8 0 5624 0 0
+-
+ns382452.ip-46-105-99.eu
+0 6 0 933 1 1562131636
+/
+66.220.149.41
+0 4 2 1436579 0 0
+-
+31.13.115.19
+0 11 10 2986992 0 0
+-
+173.252.95.6
+0 1 0 703 0 0
+-
+ec2-54-207-33-42.sa-east-1.compute.amazonaws.com
+0 3 3 265053 1 1562256865
+/
+173.252.127.50
+0 1 1 4881 1 1562226159
+/
+45.116.114.30
+0 2 0 166 0 0
+-
+69.171.251.19
+0 17 12 1676286 1 1563272390
+/
+66.220.149.12
+0 1 1 50334 0 0
+-
+69.171.251.31
+0 12 8 4378076 1 1562843554
+/
+31.13.115.15
+0 15 9 1968312 1 1562194473
+/
+b3d54714.virtua.com.br
+0 156 63 8492364 1 1564182953
+/
+69.171.251.3
+0 12 9 2015791 0 0
+-
+180.163.220.3
+0 2 1 1014053 0 0
+-
+201.63.58.201
+0 31 22 5157490 1 1562256865
+/
+69.171.251.36
+0 16 12 2400102 0 0
+-
+google-proxy-66-102-8-253.google.com
+0 66 47 5272999 0 0
+-
+31.13.127.7
+0 10 7 2825293 0 0
+-
+msnbot-40-77-167-184.search.msn.com
+0 1 1 4940 1 1564040468
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+171.13.14.24
+0 3 3 1423888 0 0
+-
+180.163.220.66
+0 5 5 339391 0 0
+-
+intecinfosys.com
+0 1 0 83 0 0
+-
+171.13.14.21
+0 8 7 1742619 1 1564307943
+/
+171.13.14.26
+0 2 2 232088 0 0
+-
+180.163.220.5
+0 14 12 2096452 1 1564307716
+/
+ec2-52-34-200-147.us-west-2.compute.amazonaws.com
+0 4 2 11552 1 1564344201
+/
+173.252.87.6
+0 1 1 50334 0 0
+-
+171.13.14.23
+0 2 2 1014216 0 0
+-
+mx390.mail.hostserv.eu
+0 1 0 83 0 0
+-
+68.183.37.54
+0 1 0 83 0 0
+-
+180.163.220.67
+0 2 1 1465605 0 0
+-
+171.13.14.22
+0 4 2 160759 0 0
+-
+ip233.ip-213-32-83.eu
+0 1 0 83 0 0
+-
+180.163.220.3
+0 2 1 1014053 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://l.instagram.com/
+0 11
+http://mendescavalcante.com.br/
+0 535
+http://l.instagram.com/
+0 7
+http://mendescavalcante.com.br/envio_email.php
+0 2
+- (Direct Request)
+0 665
+http://mendescavalcante.com.br/css/ux.css
+0 669
+http://www.baidu.com/
+0 1
+http:// mendescavalcante.com.br
+0 1
+http:// www.mendescavalcante.com.br
+0 3
+http://www.mendescavalcante.com.br/envio_email.php
+0 2
+http://www.mendescavalcante.com.br/css/ux.css
+0 383
+http://www.mendescavalcante.com.br/css/lightbox.min.css
+0 80
+http://mendescavalcante.com.br/css/lightbox.min.css
+0 196
+http://mendescavalcante.com.br/admin
+0 2
+http://www.mendescavalcante.com.br/
+0 611
+http://www.google.com.hk
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Mobile/15E14
+0 137
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 100
+0 29
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G935F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3
+0 31
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 65
+Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/
+0 31
+Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.
+0 23
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+0 30
+Mozilla/5.0 (Linux; Android 7.0; SM-A510M Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.37
+0 31
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 7
+Mozilla/5.0 (Linux; Android 9; SM-J600GT Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome
+0 130
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.1
+0 31
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+0 3
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
+0 10
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 102
+0 29
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 21
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 2
+Mozilla/5.0 (Linux; Android 6.0; LG-X230 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.349
+0 31
+Go-http-client/1.1
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36
+0 15
+Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mo
+0 19
+Googlebot-Image/1.0
+0 24
+Mozilla/5.0 (Linux; Android 9; SM-J730G Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/
+0 102
+python-requests/2.22.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36 OPR/62.0.
+0 32
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+0 3
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 35
+Cpanel-HTTP-Client/1.0
+0 7
+Mozilla/5.0 (Linux; Android 9; moto g(7) plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.
+0 32
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 62
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 917
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+0 375
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 14
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Safari/537.36 Chrome-Lighthouse
+0 200
+WhatsApp/2.19.61 i
+0 1
+WhatsApp/2.19.203 A
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) DownloaderChrome/62.0.3202.75 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 16
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 103
+0 96
+python-requests/2.21.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+0 97
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 21
+Mozilla/5.0 (Linux; U; Android 9; pt-br; Redmi Note 6 Pro Build/PKQ1.180904.001) AppleWebKit/537.36 (KHTML, like Gecko) Versi
+0 72
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+0 34
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Saf
+0 98
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 19
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 101
+0 213
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
